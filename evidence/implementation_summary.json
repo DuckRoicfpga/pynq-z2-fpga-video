@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "scope": "Historical Vivado implementation/package verification, not a new build.",
+  "overlays": [
+    {
+      "board": "PYNQ-Z2",
+      "part": "xc7z020clg400-1",
+      "vivado_version": "2022.2",
+      "bit_file": "video_dma.bit",
+      "hwh_file": "video_dma.hwh",
+      "bit_sha256": "c6eda92a93a65a30cf007afe37a6cdf4d43a46afe69f5fca67dc6eec40006100",
+      "hwh_sha256": "f30b8b2f3f5ee39a330a0d255ed1fe7747f2c149ee8154df205d41912ecd676d",
+      "clock_hz": 100000000,
+      "setup_slack_ns": 1.183,
+      "hold_slack_ns": 0.021,
+      "critical_drc_count": 0,
+      "resources_post_route": {
+        "total_luts": 3457,
+        "logic_luts": 3238,
+        "lutram": 16,
+        "srl": 203,
+        "flip_flops": 4479,
+        "ramb36": 2,
+        "ramb18": 2,
+        "dsp": 3,
+        "bram_tiles": 3.0
+      },
+      "hdmi_included": false
+    },
+    {
+      "board": "PYNQ-Z2",
+      "part": "xc7z020clg400-1",
+      "vivado_version": "2022.2",
+      "bit_file": "video_hdmi.bit",
+      "hwh_file": "video_hdmi.hwh",
+      "bit_sha256": "aef79333930e05ac814b577dd90e7dc0e38ad0a7f86e68ec74428cfdcbfbc0ef",
+      "hwh_sha256": "207552681c3e25af0120b0ac95f7bb1f59e3b3568a98dac7ec2dbf82c3d21885",
+      "clock_hz": 100000000,
+      "setup_slack_ns": 0.114,
+      "hold_slack_ns": 0.05,
+      "critical_drc_count": 0,
+      "resources_post_route": {
+        "total_luts": 15449,
+        "logic_luts": 14787,
+        "lutram": 58,
+        "srl": 604,
+        "flip_flops": 23193,
+        "ramb36": 11,
+        "ramb18": 4,
+        "dsp": 3,
+        "bram_tiles": 13.0
+      },
+      "hdmi_included": true
+    }
+  ]
+}

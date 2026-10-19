@@ -1,0 +1,11 @@
+{
+  "status": "FAIL",
+  "observed_seconds": 131.719,
+  "sample_count": 25,
+  "jupyter_request_errors": [
+    "timed out",
+    "timed out"
+  ],
+  "video_healthy_samples": 25,
+  "note": "Earlier observation retained honestly: video remained healthy but Jupyter had two request timeouts before log-file reopening."
+}

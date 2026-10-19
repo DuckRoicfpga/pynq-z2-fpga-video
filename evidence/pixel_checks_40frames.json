@@ -1,0 +1,246 @@
+{
+  "status": "PASS_40_FRAMES_FOUR_MODES",
+  "samples": [
+    {
+      "index": 0,
+      "mode": 0,
+      "mismatched_bytes": 0,
+      "seconds": 0.534
+    },
+    {
+      "index": 1,
+      "mode": 1,
+      "mismatched_bytes": 0,
+      "seconds": 0.579
+    },
+    {
+      "index": 2,
+      "mode": 2,
+      "mismatched_bytes": 0,
+      "seconds": 0.595
+    },
+    {
+      "index": 3,
+      "mode": 3,
+      "mismatched_bytes": 0,
+      "seconds": 0.846
+    },
+    {
+      "index": 4,
+      "mode": 0,
+      "mismatched_bytes": 0,
+      "seconds": 0.42
+    },
+    {
+      "index": 5,
+      "mode": 1,
+      "mismatched_bytes": 0,
+      "seconds": 0.579
+    },
+    {
+      "index": 6,
+      "mode": 2,
+      "mismatched_bytes": 0,
+      "seconds": 0.596
+    },
+    {
+      "index": 7,
+      "mode": 3,
+      "mismatched_bytes": 0,
+      "seconds": 0.846
+    },
+    {
+      "index": 8,
+      "mode": 0,
+      "mismatched_bytes": 0,
+      "seconds": 0.42
+    },
+    {
+      "index": 9,
+      "mode": 1,
+      "mismatched_bytes": 0,
+      "seconds": 0.581
+    },
+    {
+      "index": 10,
+      "mode": 2,
+      "mismatched_bytes": 0,
+      "seconds": 0.614
+    },
+    {
+      "index": 11,
+      "mode": 3,
+      "mismatched_bytes": 0,
+      "seconds": 0.849
+    },
+    {
+      "index": 12,
+      "mode": 0,
+      "mismatched_bytes": 0,
+      "seconds": 0.419
+    },
+    {
+      "index": 13,
+      "mode": 1,
+      "mismatched_bytes": 0,
+      "seconds": 0.579
+    },
+    {
+      "index": 14,
+      "mode": 2,
+      "mismatched_bytes": 0,
+      "seconds": 0.595
+    },
+    {
+      "index": 15,
+      "mode": 3,
+      "mismatched_bytes": 0,
+      "seconds": 0.846
+    },
+    {
+      "index": 16,
+      "mode": 0,
+      "mismatched_bytes": 0,
+      "seconds": 0.42
+    },
+    {
+      "index": 17,
+      "mode": 1,
+      "mismatched_bytes": 0,
+      "seconds": 0.579
+    },
+    {
+      "index": 18,
+      "mode": 2,
+      "mismatched_bytes": 0,
+      "seconds": 0.597
+    },
+    {
+      "index": 19,
+      "mode": 3,
+      "mismatched_bytes": 0,
+      "seconds": 0.847
+    },
+    {
+      "index": 20,
+      "mode": 0,
+      "mismatched_bytes": 0,
+      "seconds": 0.419
+    },
+    {
+      "index": 21,
+      "mode": 1,
+      "mismatched_bytes": 0,
+      "seconds": 0.578
+    },
+    {
+      "index": 22,
+      "mode": 2,
+      "mismatched_bytes": 0,
+      "seconds": 0.595
+    },
+    {
+      "index": 23,
+      "mode": 3,
+      "mismatched_bytes": 0,
+      "seconds": 0.848
+    },
+    {
+      "index": 24,
+      "mode": 0,
+      "mismatched_bytes": 0,
+      "seconds": 0.419
+    },
+    {
+      "index": 25,
+      "mode": 1,
+      "mismatched_bytes": 0,
+      "seconds": 0.579
+    },
+    {
+      "index": 26,
+      "mode": 2,
+      "mismatched_bytes": 0,
+      "seconds": 0.595
+    },
+    {
+      "index": 27,
+      "mode": 3,
+      "mismatched_bytes": 0,
+      "seconds": 0.846
+    },
+    {
+      "index": 28,
+      "mode": 0,
+      "mismatched_bytes": 0,
+      "seconds": 0.42
+    },
+    {
+      "index": 29,
+      "mode": 1,
+      "mismatched_bytes": 0,
+      "seconds": 0.579
+    },
+    {
+      "index": 30,
+      "mode": 2,
+      "mismatched_bytes": 0,
+      "seconds": 0.595
+    },
+    {
+      "index": 31,
+      "mode": 3,
+      "mismatched_bytes": 0,
+      "seconds": 0.873
+    },
+    {
+      "index": 32,
+      "mode": 0,
+      "mismatched_bytes": 0,
+      "seconds": 0.42
+    },
+    {
+      "index": 33,
+      "mode": 1,
+      "mismatched_bytes": 0,
+      "seconds": 0.58
+    },
+    {
+      "index": 34,
+      "mode": 2,
+      "mismatched_bytes": 0,
+      "seconds": 0.597
+    },
+    {
+      "index": 35,
+      "mode": 3,
+      "mismatched_bytes": 0,
+      "seconds": 0.847
+    },
+    {
+      "index": 36,
+      "mode": 0,
+      "mismatched_bytes": 0,
+      "seconds": 0.419
+    },
+    {
+      "index": 37,
+      "mode": 1,
+      "mismatched_bytes": 0,
+      "seconds": 0.612
+    },
+    {
+      "index": 38,
+      "mode": 2,
+      "mismatched_bytes": 0,
+      "seconds": 0.616
+    },
+    {
+      "index": 39,
+      "mode": 3,
+      "mismatched_bytes": 0,
+      "seconds": 0.848
+    }
+  ],
+  "cleanup": "OK"
+}

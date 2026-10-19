@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "recorded_at_utc": "2026-10-18T14:29:46.195651+00:00",
+  "scope": "Physical PYNQ-Z2 HDMI IN -> FPGA four modes -> JPEG/web and notebook04 start/reuse/stop/restart",
+  "private_original_report_sha256": "c3d162830e2672032dbccc5cca09288895cf7932f4891ef7159a52561e79f8e8",
+  "publication_note": "Public derivative: local paths, authentication/session metadata and process IDs omitted.",
+  "runtime_files_sha256": {
+    "web_stream_server.py": "28037eb5233a424aeca18966fb452c20904d483c770e6f4ddff61eeeadb4fab9",
+    "hdmi_workflows.py": "9311ed543dacddfac6031f27815f51f65810b2dd91e686a99b9ab63c7ab5446f",
+    "frame_ownership.py": "bd0ba16d2d6ed96a21ff75818200a79e720c3dcb784d9eabfcafc893037532c1",
+    "web_stream_notebook.py": "1ade09822a833521b8e7de8e4bb3139149e679001ce85bed386c844cfd389dc7"
+  },
+  "notebook_code_sha256": "d578421999873957199c6ebad58aaa7046a4f17a69358d54a7a8d52d1ce35c06",
+  "pixel_check": {
+    "frames": 40,
+    "modes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "mismatched_bytes": 0,
+    "data_file": "pixel_checks_40frames.json"
+  },
+  "first_run_observed_completed_frames": 2143,
+  "notebook_start_reuse_stop_restart": "PASS",
+  "stop": {
+    "process_exited": true,
+    "vdma_halted": true,
+    "CmaFree_after_stop_kB": 49836
+  },
+  "bounded_observation": {
+    "status": "PASS",
+    "seconds": 128.453,
+    "samples": 25,
+    "all_jupyter_http_200": true,
+    "same_video_pid": true,
+    "frames_strictly_increasing": true,
+    "completed_jpeg_fps": 2.2208715167383577,
+    "evidence": "stream_observation_128s.json"
+  },
+  "final_stats_snapshot": {
+    "status": "running",
+    "healthy": true,
+    "processed_frames": 926,
+    "mode": 3,
+    "fps": 2.2242637313838043,
+    "metrics": {
+      "applied_mode": 3,
+      "applied_threshold": 128,
+      "capture_ms": 155.34724899998764,
+      "core_active_cycles": 1874740,
+      "core_active_ms": 18.747400000000003,
+      "fpga_driver_ms": 194.27184599999237,
+      "jpeg_ms": 29.751266999937798,
+      "pipeline_ms": 447.2810390002451,
+      "pixels_in": 307200,
+      "pixels_out": 307200,
+      "resize_ms": 67.91067700032727,
+      "vdma_sync_recoveries": 2
+    },
+    "fps_scope": "completed JPEG frames; not HDMI source refresh or browser display FPS"
+  },
+  "limitations": [
+    "Known EXT4 filesystem errors were not repaired.",
+    "Bounded observations do not certify long-term storage or hardware reliability.",
+    "720p60 is source timing; completed Sobel JPEG throughput measured about 2.22 FPS.",
+    "HDMI OUT was not part of this test.",
+    "Earlier pre-log-reopen observation had two Jupyter latency timeouts and is preserved separately."
+  ]
+}

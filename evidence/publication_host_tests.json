@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "recorded_at_utc": "2026-10-18T15:57:42.943601+00:00",
+  "scope": "Host tests and static publication checks; no board access or physical retest",
+  "tests_run": 57,
+  "failures": 0,
+  "errors": 0,
+  "notebook_code_cells_compiled": 18,
+  "notebook_outputs_cleared": true,
+  "verified_runtime_hashes_match_board_evidence": true,
+  "basic_private_path_and_secret_pattern_scan": "PASS",
+  "source_sha256": {
+    "software/board_inventory.py": "3a4f909556fe6dad82f7573be99a8f6aeffef3c8eba8c91b88a3c33a14fd9edd",
+    "software/board_workflows.py": "2679fa09401cd9436b2feaf86bacefbcd12bd94a19e492eb1fb2fdaacea4e96e",
+    "software/build_web_stream_notebook.py": "210eee7bab233acd9da340154971d8937827908df0fac999df3faa2a5ab7df0d",
+    "software/create_notebooks.py": "c2c8ac53d431fac9cadf51cb3681ef80f04f8622855f9f3d554ca838cb1f05ab",
+    "software/frame_ownership.py": "bd0ba16d2d6ed96a21ff75818200a79e720c3dcb784d9eabfcafc893037532c1",
+    "software/generate_vectors.py": "b85aecfca08792161929414b34d96edd434baf15eb9de629d507b3534c364348",
+    "software/hdmi_workflows.py": "9311ed543dacddfac6031f27815f51f65810b2dd91e686a99b9ab63c7ab5446f",
+    "software/reference_filters.py": "c510fade01c9b5e278f73bcca6b29b37833f170cfba49104822168e3ba27909a",
+    "software/test_board_workflows.py": "7d2823b809f3797256fc92a403d28c8a02fa55326c0e54f3e2ce70d7344782bd",
+    "software/test_frame_ownership.py": "62de13d175196a7382f6ff2605958f0396c9eb821d5ae0834c89fe57f69b1feb",
+    "software/test_hdmi_workflows.py": "51c5ce4c864f5244f07b3bab501a83dfe085f02d762154ff3cf68c81c13afd72",
+    "software/test_reference_filters.py": "1691a335fafa2d0f2cf74fffefbb6cffd9ede6ce4d8315eeb8248d75be545704",
+    "software/test_video_driver.py": "1793f428b700a5a67e37db5b1f3f69ecd3d2a2527d3e24a2cb27d789e0f0f6fd",
+    "software/test_web_stream_server.py": "9c9b6d2c589d87dd8b35e9535c5741bb87d1ca7271cd7572b4b1ecfb881c33d1",
+    "software/video_driver.py": "9777f88e4e6e8e7e6c680c4f3b61cd4d2db4fe56cdf59bba372276398b9398c3",
+    "software/web_stream_notebook.py": "1ade09822a833521b8e7de8e4bb3139149e679001ce85bed386c844cfd389dc7",
+    "software/web_stream_server.py": "28037eb5233a424aeca18966fb452c20904d483c770e6f4ddff61eeeadb4fab9"
+  }
+}

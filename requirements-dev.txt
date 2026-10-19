@@ -1,0 +1,3 @@
+# Host tests/reference generation only; use the vendor image's runtime on PYNQ.
+numpy>=1.23,<3
+Pillow>=9,<13

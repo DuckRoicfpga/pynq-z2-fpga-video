@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "case_mode_comparisons": 101,
+  "protocol_error_reset_tests": 21,
+  "actual_board_test": false,
+  "source_sha256": {
+    "rtl/gray_threshold.v": "030a6d5b215ec17970b2ab02f0f16604a8b1d3f7b76c90f98e4890e9ad1d4659",
+    "rtl/line_buffer_3x3.v": "466fa655f7a47f57a8a405f002a8eccca9095ea149a7d9d26dc6a216e7a73f9f",
+    "rtl/sobel_3x3.v": "6a269769942ae43e7b88b4de9a69d3bf23057d11d6416581bb3cbd567a50d7ea",
+    "rtl/video_filter_axi.v": "65c4f6fba531a3d04e4490a7365d48a6fe85ac718fbd2ee359c058e2e45d6454",
+    "rtl/video_filter_core.v": "773954e4f6dbf539bebf52b0c6b6d5da6e9d3bb99b688f97928d51c8d93de860"
+  },
+  "log": "output/rtl_validation/xsim/xsim.log"
+}

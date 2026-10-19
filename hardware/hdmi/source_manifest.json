@@ -1,0 +1,30 @@
+{
+  "repository": "https://github.com/Xilinx/PYNQ",
+  "tag": "v3.0.1",
+  "commit": "93ddd21ab623883590a8c8b07f0b157b2855da4b",
+  "upstream_vivado": "2022.1",
+  "build_vivado": "2022.2",
+  "extracted_procedures": [
+    "create_hier_cell_frontend_1",
+    "create_hier_cell_frontend",
+    "create_hier_cell_hdmi_out",
+    "create_hier_cell_hdmi_in",
+    "create_hier_cell_video"
+  ],
+  "sha256": {
+    "vendor/PYNQ/boards/Pynq-Z2/base/base.tcl": "e88b88b4b3e2a9c4d0856c37a26ef8550303a3f9ccddfd5c521e3f9d5d8bc8ff",
+    "vendor/PYNQ/boards/Pynq-Z2/base/vivado/constraints/base.xdc": "05d99c9032ceb21b2f6850955dd897a14a30d77ebda21d57867daa65caef2d3b",
+    "generated/video_hierarchy.tcl": "f2629a186cf8a34d7b307f38ae86e1198e3200860229660a236f7f0740dd27bf",
+    "generated/hdmi_pynq_z2.xdc": "b313f306db37504a2ca4dff35e0edd1b5c26824245411713144c5189be882a3a",
+    "vendor/PYNQ/boards/ip/dvi2rgb_v1_7/src/720p_edid.data": "55d72ad5c61be4b5f03ac6a4827c99386bf8cd33e65d351f9eebb986416db6d6",
+    "generated/720p_edid.data": "55d72ad5c61be4b5f03ac6a4827c99386bf8cd33e65d351f9eebb986416db6d6"
+  },
+  "project_overrides": {
+    "hdmi_input_mode": "1280x720@60",
+    "hdmi_input_pixel_clock_hz": 74250000,
+    "hdmi_input_clock_period_ns": 13.468013468,
+    "dvi2rgb_rx_kClkRange": 2,
+    "note": "RX MMCM multiplier=10, VCO=742.5MHz; upstream procedure remains unmodified, top BD overrides original RX kClkRange=1"
+  },
+  "physical_board_tested": false
+}
